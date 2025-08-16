@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>🤖 My Name :</b> <a href='https://t.me/MRxFileStoreRobot'>File Sharing Bot</a> \n<b>📝 Language :</b> <a href='https://python.org'>Python 3</a> \n<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>📢 Channel :</b> <a href='https://t.me/MRxVOLTZ'>MRxVOLTZ</a> \n<b>🧑‍💻 Developer :</b> <a href='tg://user?id={OWNER_ID}'>Masoom Jaat</a>",
+            text = f"<b>🤖 My Name :</b> <a href='https://t.me/Moviesforwad_bot'>File Sharing Bot</a> \n<b>📝 Language :</b> <a href='https://python.org'>Python 3</a> \n<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>📢 Channel :</b> <a href='https://t.me/+dHEMbjjZU19iZjI9'>CineVaultMovies</a> \n<b>🧑‍💻 Developer :</b> <a href='tg://user?id={OWNER_ID}'>NICK</a>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
